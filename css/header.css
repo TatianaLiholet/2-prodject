@@ -1,0 +1,262 @@
+.header {
+	
+}
+
+.header__top {
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.header__bottom {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	background-color: #000;
+}
+
+.header__formCont {
+	display: none;
+}
+
+.header__form {
+	display: none;
+}
+.toggleMobMenu {
+	float: left;
+	width: 40px;
+	margin-top: 3px;
+}
+
+.toggleMobMenu span {
+	display: block;
+	height: 2px;
+	margin-bottom: 6px;
+	background-color: #fff;
+}
+
+.toggleMobMenu span:last-child {
+	margin-bottom: 0;
+}
+
+.logo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 117px;
+	height: 25px;
+	background: url("../images/logo.png");
+}
+
+.menuCont {
+	display: none;
+	position: absolute;
+	padding-top: 28px;
+	padding-bottom: 30px;
+	border-top: 1px solid rgba(255,255,255,.8);
+	top: 100%;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.8);
+	z-index: 2;
+}
+
+.menuCont.open {
+	display: block;
+}
+
+.delivery {
+	display: none;
+}
+
+.mailLink {
+	display: inline-block;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	margin-bottom: 26px;
+}
+.mailLink:before {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+	content: "";
+	width: 21px;
+	height: 13px;
+	background: url("../images/mail.png");
+}
+
+.account {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 33px;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;	
+}
+
+.account:before {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+	content: "";
+	width: 24px;
+	height: 9px;
+	background: url("../images/key.png");
+}
+
+.location {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.location__item {
+	display: inline-block;
+}
+
+.location__item a {
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+
+.location__item:after {
+	content:"|";
+	margin-left: 4px;
+}
+
+.location__item:last-child:after {
+	display: none;
+}
+
+.basket {
+	float: right;
+	color: #fff;
+	text-decoration: none;
+}
+
+.basket:after{
+	display: inline-block;
+	content: '';
+	width: 27px;
+    height: 21px;
+    margin-left: 2px;
+	background: url("../images/basket.png");
+}
+
+.menu__item a {
+	display: block;
+	padding: 20px 0;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 480px) { 
+	.header__topRight {
+		float: right;
+	}
+	.mailLink {
+		float: left;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.toggleMobMenu {
+		display: none;
+	}
+	.logo {
+		position: static;
+		float: left;
+		margin-right: 17px;
+	}
+
+	.menuCont {
+		position: static;
+    	float: left;
+    	display: block;
+    	padding: 0;
+    	border-top: none;
+    }		
+
+    .menu__item {
+    	display: inline-block;
+    }
+    .menu__item a {
+    	font-size: 14px;
+    	padding: 0 17px;
+    }
+    .header__form {
+    	position: absolute;
+    	right: 0;
+    	top: 100%;
+    }
+
+    .header__form input[type="search"] {
+    	border: none;
+    	padding-right: 25px;
+    	border-bottom: 1px solid #000;
+    }
+    .header__form button {
+    	background: #000 url(../images/search.png);
+    	border: none;
+    	width: 23px;
+    	height: 23px;
+    	font-size: 0;
+    	position: absolute;
+    	bottom: 3px;
+    	right: 0;
+    }
+    .header__formCont {
+    	display: block;
+    	float: right;
+    }
+    .searchIcon {
+    	display: block;
+    	width: 23px;
+    	height: 23px;
+    	margin-right: 16px;
+    	background: url("../images/search.png");
+    }
+}
+
+@media screen and (min-width: 992px) {
+	.delivery {
+		float: left;
+		display: block;
+		margin-right: 55px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.logo {
+		position: static;
+		float: left;
+	}	
+}
+
+@media screen and (min-width: 1200px) {
+	.delivery {
+		margin-right: 150px;
+	}
+	.header__formCont {
+		margin-right: 10px;
+	} 
+	.header__form {
+		display: block;
+		position: relative;
+	}
+	.header__form input[type="search"] {
+	    border: block;
+    	padding-right: 25px;
+    	border-bottom: 1px solid #fff;
+    	background-color: transparent;
+	}
+	.searchIcon {
+		display: none;
+	}
+}

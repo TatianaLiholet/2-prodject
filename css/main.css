@@ -1,0 +1,261 @@
+
+
+/*2 часть*/
+
+img{
+	width: 100%;
+	height: auto;
+
+}
+
+
+
+.New_dress{
+	text-align: center;
+	font-size: 24px; 
+	text-transform: uppercase;
+	margin-top: 35px;
+	margin-bottom: 28px;
+}
+
+
+.dresscode1{
+	padding-right: 58px;
+	padding-left: 58px;
+	text-decoration: none;
+	
+}
+.dress_text a{
+	text-decoration: none;
+	margin-top: 20px;
+	color: #000;
+
+}
+
+
+.dresscode2{
+	display: none;
+}
+
+
+.dresscode3{
+	display: none;
+}
+
+
+
+.button_follow{
+
+	padding: 18px;
+	border:1px solid;
+	font-size: 12px;
+	text-decoration: none;
+	color: #b6b2a4;
+   
+}
+.button{
+	text-align: center;
+		
+	
+}
+
+
+
+.drem_1{
+	margin-top: 50px;
+	position: relative;
+	margin-right: 58px;
+	margin-left: 58px;
+	margin-bottom: 60px;
+
+
+}
+
+
+.dots{
+	width: 25px;
+	height: auto;
+	display: block;
+    margin: auto;
+    padding-bottom: 45px;
+	
+	
+}
+
+.drem_1 a{
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+	 top: 0;
+	 bottom: 0;
+	 text-align: center;
+	 font-size: 14px;
+	 margin: auto;
+	 height: 45px;
+	 color: #000;
+	 letter-spacing: 4px;
+	 font-weight: bold;
+
+}
+
+.dress_text{
+	text-align: center;
+	padding-bottom: 35px;
+	padding-top: 40px;
+}
+
+
+
+
+
+@media screen and (min-width: 480px) { 
+	
+.drem_1 a{
+	 font-size: 24px;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+	
+.New_dress{
+	font-size: 18px; 	
+}
+
+
+.tumba{
+	display: table;
+
+}
+
+
+.dresscode2{
+	text-decoration: none;
+	display: table-cell;
+	padding-right: 22px;
+	
+}
+
+.dresscode3{
+	text-decoration: none;
+	display: table-cell;
+
+	
+	
+}
+
+
+.dresscode1{
+	display: table-cell;
+	padding-right: 22px;
+	padding-left: 0;
+}
+
+
+
+.dress_text{
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 35px;
+	line-height: 1.4;
+	
+}
+
+.line-through{
+	text-decoration: line-through;
+}
+
+
+.drem_1{
+	font-size: 24px;
+}
+
+.dots{
+	display: none;
+}
+
+.button{
+	margin-top: 40px;
+}
+
+.container {
+    padding: 0 36px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+	.container {
+    padding: 0 60px;
+
+}
+
+
+.drem_1 a{
+	 font-size: 40px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+	
+
+
+.container{
+	padding: 0 100px;
+}
+
+.dresscode1{
+	padding-right: 35px;
+	padding-left: 0;
+}
+
+.dresscode2{
+	padding-right: 35px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

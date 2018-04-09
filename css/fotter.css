@@ -1,0 +1,123 @@
+
+
+/*футер*/
+
+.text {
+	font-size: 18px; 
+	color: #fff;
+	text-decoration: none;
+	line-height: 1.5;
+}
+
+.btn{
+	padding: 9px;
+	border:1px solid;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none; 
+}
+
+
+.footer_cp {
+	color: #fff;
+}
+
+.footer_cp a {
+	color: #fff;
+}
+
+.footer_Item_blok2 {
+	font-size: 18px;
+	padding-top: 80px;
+	padding-bottom: 55px;
+	display: inline-block;
+	float: left;
+	padding-left: 40px;
+		
+}
+
+
+.footer__menu{
+    padding-top: 35px;
+    
+	
+}
+
+.footer{
+	height: auto;
+    background-color: #000;
+    bottom: 0;
+    font-size: 0;
+  
+}
+
+
+.button_right{
+   float: right;
+   display: inline-block;
+   padding-right: 5px;
+   padding-left: 5px;
+   padding-top: 15px;
+
+}
+
+/*media*/
+@media screen and (min-width: 480px) {
+   .button_right{
+   padding-right: 55px;	
+}
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+.blok{
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	display: table-cell;
+	
+}
+
+.button_right{
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	margin-top: 15px;
+	padding: 0;
+
+}
+
+.footer_Item_blok2{
+	display: inline;
+	
+}
+
+.footer__menu{
+	width: 100%;
+	display: table;
+
+}
+
+.footer_Item_blok1{
+	width: 100%;
+
+}
+
+.text {
+	font-size: 12px; 
+
+}
+
+.btn{
+	font-size: 12px;
+	padding: 12px;
+}
+
+.footer_cp{
+	font-size: 12px;
+}
+
+
+
